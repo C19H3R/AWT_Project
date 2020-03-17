@@ -1,0 +1,23 @@
+.logo_tag_line{
+    display: inline;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 31px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    }
+.logo_inline{
+    display: inline;
+
+}
+.soc-icons{
+    width: 40px;
+}
+#menu_icon{
+    width: 40px;
+}
