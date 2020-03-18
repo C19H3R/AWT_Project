@@ -9,8 +9,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <script src="nav_scroll.js"></script>
+  
 </head>
-<body>
+<body> 
+  
 <div class="header">
   <div class="container-fluid-sm">
 
@@ -50,14 +54,16 @@
           <img src="assets\menu.svg" alt="" class="mr-sm-2" id="menu_icon">
         </a></li>
       </ul>
+      <div class="w-100"id="myNavbar">
       <ul class="navbar-nav w-100 justify-content-between">
         
-        <li class="nav-item active"><a href="" class="nav-link nav_links">INTRO</a></li>
-        <li class="nav-item"><a href="" class="nav-link nav_links">SERVICES</a></li>
-        <li class="nav-item"><a href="" class="nav-link nav_links">ABOUT US</a></li>
-        <li class="nav-item"><a href="" class="nav-link nav_links">CONTACT US</a></li>
+        <li class="nav-item"><a href="#intro" class="nav-link nav_links">INTRO</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link nav_links">SERVICES</a></li>
+        <li class="nav-item"><a href="#about_us" class="nav-link nav_links">ABOUT US</a></li>
+        <li class="nav-item"><a href="#contact_us" class="nav-link nav_links">CONTACT US</a></li>
         
       </ul>
+    </div>
       
       <ul class="navbar-nav w-100 ">
         <li class="nav-item w-100">
@@ -75,22 +81,23 @@
         delectus maiores dolorum nobis facere totam, nihil maxime repudiandae itaque
       sicing elit. Repellendus 
         delectus maiores dolorum nobis facere totam, nihil maxime repudiandae itaque </h5>
-        <div style="height:725px;clear:both;background-color: #AED4E6;" class="mh-100"></div>
+        <div style="height:795px;clear:both;background-color: #AED4E6;" class="mh-100" id="intro"></div>
+        <div style="height:795px;clear:both;background-color:#F7E1D7 ;" class=" mh-100" id="services"></div>
         
-        <div style="height:725px;clear:both;background-color:#F7E1D7 ;" class=" mh-100"></div>
-        
-        <div style="height:725px;clear:both;background-color: #A4C3B2;" class=" mh-100"></div>
-        
+        <div style="height:795px;clear:both;background-color: #A4C3B2;" class=" mh-100" id="about_us"></div>
+           
     </div>
   </div>
-</div class="header"> 
+</div> 
 
 <div class="footer">
   <div class="container-fluid-sm">
     
-    <div style="height:725px;clear:both;background-color:#EDAFB8 ;" class=" mh-100"></div>
-    <div style="height:300px;clear:both;" class="bg-dark mh-100"></div>
+    <div style="height:600px;clear:both;background-color: #A4C3B2;" class=" mh-100"id="contact_us" ></div>
+    
+    <div style="height:200px;clear:both;;" class="bg-dark mh-100"id="contact_us" ></div>
   </div>
-</div class="footer">
+</div>
+<a href="#logo_upper" id="back-to-top"><img src="assets\up.svg" alt=""></a>
 </body>
 </html>
