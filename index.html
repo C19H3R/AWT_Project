@@ -11,9 +11,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<header>
+<div class="header">
   <div class="container-fluid-sm">
-    <div class="logo_bar bg-secondary">
+    <div class="bg-secondary">
       <img src="assets\LOGO.svg" alt="" class="mx-4">
       <h1 class="logo_tag_line align-bottom ">The Solutions to your ideas!!!</h1>
       
@@ -26,25 +26,33 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <ul class="navbar-nav w-100">
         <li class="nav-item"><a href="" class="nav-link">
           <img src="assets\menu.svg" alt="" class="mr-sm-2" id="menu_icon">
         </a></li>
-        <li class="nav-item"><a href="" class="nav-link">Link 2</a></li>
-        <li class="nav-item "><a href="" class="nav-link">Link 3</a></li>
+      </ul>
+      <ul class="navbar-nav w-100 justify-content-between">
+        
+        <li class="nav-item active"><a href="" class="nav-link nav_links">INTRO</a></li>
+        <li class="nav-item"><a href="" class="nav-link nav_links">SERVICES</a></li>
+        <li class="nav-item"><a href="" class="nav-link nav_links">ABOUT US</a></li>
+        <li class="nav-item"><a href="" class="nav-link nav_links">CONTACT US</a></li>
+        
+      </ul>
+      
+      <ul class="navbar-nav w-100 ">
+        <li class="nav-item w-100">
+          <button class="btn btn-outline-light mt-sm-0 mr-3 float-right">LOGIN / SIGNUP</button>
+        </li>
       </ul>
     </nav>
-    
-  </div>
-</header>
-  
-<main>
-  <div class="container-fluid"></div>
-</main>
 
-<footer>
+  </div>
+</div class="header"> 
+
+<div class="footer">
   <div class="container-fluid"></div>
-</footer>
+</div class="footer">
 </body>
 </html>
