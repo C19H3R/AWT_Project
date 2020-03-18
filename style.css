@@ -21,3 +21,18 @@
 #menu_icon{
     width: 40px;
 }
+#navigation_badges{
+    margin: auto;
+}
+.nav_links{
+    font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
