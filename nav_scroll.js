@@ -16,6 +16,8 @@
         });
       }
     });
+
+
     $("#back-to-top").on('click', function(event) {
         if (this.hash !== "") {
           event.preventDefault();
@@ -31,7 +33,7 @@
         } 
       });
 
-    var amountScrolled = 2500;
+    var amountScrolled = 500;
 
 $(window).scroll(function() {
 	if ( $(window).scrollTop() > amountScrolled ) {
